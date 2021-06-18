@@ -24,7 +24,7 @@
     margin-right: 20px;
   }
 
-  p {
+  .promo1 p {
     margin: 0;
   }
   
@@ -41,7 +41,7 @@
     height: 235px;
   }
 
-h2 {
+.seu-estilo {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 800;
@@ -216,6 +216,10 @@ h5 {
   color: #FFFFFF;
 }
 
+.categorias p {
+  margin: 0;
+}
+
 .institucional {
   margin-right: 148px;
   width: 246px;
@@ -228,5 +232,64 @@ h5 {
   color: #FFFFFF;
 }
 
+.institucional p {
+  margin: 0;
+}
 
+.contact-heading {
+  font-size: 40px;
+  font-weight: 600;
+  color: #575757;
+}
 
+.contato {
+  display: flex;
+}
+
+form, article {
+  flex: 1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+  color: #9b9b9b;
+}
+
+input, select {
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  border: solid 1px #9b9b9b;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.upload button {
+  width: 118px;
+  height: 21px;
+  background-color: #c4c4c4;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+.enviar {
+  width: 537px;
+  height: 33px;
+  background: #C2185B;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
