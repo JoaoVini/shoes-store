@@ -236,16 +236,15 @@ h5 {
   margin: 0;
 }
 
+.contato {
+  display: flex;
+}
+
 .contact-heading {
   font-size: 40px;
   font-weight: 600;
   color: #575757;
 }
-
-.contato {
-  display: flex;
-}
-
 form, article {
   flex: 1;
 }
@@ -268,28 +267,27 @@ label {
   margin-bottom: 5px;
 }
 
-.upload button {
-  width: 118px;
-  height: 21px;
-  background-color: #c4c4c4;
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  color: #FFFFFF;
-  margin-top: 22px;
-  margin-bottom: 22px;
+.curriculo {
+  display: flex;
+  margin: 22px 0;
 }
 
-.enviar {
-  width: 537px;
-  height: 33px;
-  background: #C2185B;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 23px;
+button#upload {
+  background-color: #C4C4C4;
   color: #FFFFFF;
+  font-size: 20px;
+  border: none;
+  width: 118px;
+  padding: 0 10px;
+  margin-left: 20px;
+}
+
+button#enviar {
+  background-color: #C2185B;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  padding: 5px 10px;
+  margin-bottom: 57px;
 }

@@ -70,13 +70,17 @@
       <section>
         <h2 class="contact-heading">Faça parte do nosso time</h2>
         <div class="contato">
-          <form action="">
+          <form action="" method="POST">
+
             <label for="nome">Nome</label>
-            <input type="text" id="nome" />
+            <input type="text" name="nome" id="nome" />
+
             <label for="e-mail">E-mail</label>
-            <input type="email" id="e-mail" />
+            <input type="email" name="email" id="e-mail" />
+
             <label for="telefone">Telefone</label>
-            <input type="tel" id="telefone" />
+            <input type="tel" name="telefone" id="telefone" />
+
             <label for="departamentos">Departamentos</label>
             <select name="departamentos" id="departamentos">
               <option selected disabled>Selecione um departamento</option>
@@ -84,37 +88,37 @@
               <option value="design">Design</option>
               <option value="rh">Recursos Humanos</option>
             </select>
+            
             <label>Disponibilidade</label>
             <div class="options">
-              <input
-                type="checkbox"
-                name="disponibilidade"
-                id="opcao-integral"
-              />
+              <input type="checkbox" name="disponibilidade" id="opcao-integral"/>
               <label for="opcao-integral">Integral (8h)</label>
 
               <input type="checkbox" name="disponibilidade" id="opcao-meio" />
               <label for="opcao-meio">Meio Período (4h)</label>
 
-              <input
-                type="checkbox"
-                name="disponibilidade"
-                id="opcao-freelancer"
-              />
+              <input type="checkbox" name="disponibilidade" id="opcao-freelancer"/>
               <label for="opcao=-freelancer">Freelancer</label>
             </div>
+
             <label>Qual a melhor forma de entrarmos em contato com você?</label>
-            <div>
+            <div class="options">
             <input type="radio" name="contato" id="email" value="email"><label for="email">E-mail</label>
             <input type="radio" name="contato" id="ligacao" value="ligacao"><label for="ligacao">Ligação</label>
             <input type="radio" name="contato" id="whatsapp" value="whatsapp"><label for="whatsapp">Whatsapp</label>
             </div>
+
             <label>Mensagem</label>
             <textarea name="mensagem" id="mensagem" cols=30 rows=10></textarea>
-            <div class="upload"><label>Currículo</label>
-            <button type="file">Upload</button></div>
-            <button type="submit">Enviar</button>
-            </form>
+
+            <div class="curriculo">
+              <label for="">Currículo</label>
+              <button type="file" id="upload">Upload</button>
+            </div>
+            
+            <button type="submit" id="enviar">Enviar</button>
+            
+          </form>
 
           <article>
             <p>
