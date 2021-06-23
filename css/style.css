@@ -318,8 +318,13 @@ button#enviar {
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
-  text-align: center;
   font-weight: 700;
   position: absolute;
   z-index: 2;
+}
+
+#enviar:hover {
+  transition: 3s;
+  color: #C2185B;
+  background-color: #FFFFFF;
 }
