@@ -291,3 +291,35 @@ button#enviar {
   padding: 5px 10px;
   margin-bottom: 57px;
 }
+
+.container {
+  position: relative;
+}
+
+.sticky {
+  width: 100%;
+  max-width: 1280px;
+  position: sticky;
+  top: 0;
+}
+.sticky-buttom {
+  background-color: #C2185B;
+  height: 40px;
+  position: relative;
+}
+
+.sticky-p {
+  margin: 0;
+  width: 100%;
+  max-width: 1280px;
+  padding-top: 8px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  position: absolute;
+  z-index: 2;
+}
